@@ -5,6 +5,28 @@ meta:
   created: 1750862020405
   modified: 1750862020405
   description: ""
+collection:
+  - url: https://kong.poc-piab-eks.lab-lvl20.org/echo
+    name: New Request
+    meta:
+      id: req_3eebf8d7ee0f49cda272a4ade607246c
+      created: 1750862657603
+      modified: 1750862687136
+      isPrivate: false
+      description: ""
+      sortKey: -1750862657603
+    method: GET
+    headers:
+      - name: User-Agent
+        value: insomnia/11.2.0
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
 cookieJar:
   name: Default Jar
   meta:
